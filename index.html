@@ -3,121 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Blog</title>
 </head>
 <body>
-    <header>
-        <label>Spacious</label>
-        <nav class="menu">
-            <ul>
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">Nature</a>
-                <a href="#">Foord & Health</a>
-                <a href="#">Lifestyle</a>
-                <a href="#">Contact</a>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="wrap-header">
+            <label class="title">Spacious</label>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa fa-bars"></i>
+                <label>Menu</label>
+            </div>
+            <nav class="list-menu" id="list-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Nature</a></li>
+                    <li><a href="#">Foord & Health</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="home">
-        <div class="hero">
-            <img src="" alt="hero">
-            <div class="text-hero">
-                <h1>The Fashion Blogger Instagrams to Follow in 2018</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quibusdam maxime deleniti ea at debitis est qui? Animi, quos repellat eveniet rerum, voluptate suscipit explicabo ducimus iure nihil distinctio cum.</p>
-                <a href="#">Read more</a>
+        <div class="wrap">
+            <div class="hero">
+                <img src="./images/hero.jpg" alt="hero">
+                <div class="text-hero">
+                    <h1>The Fashion Blogger Instagrams to Follow in 2018</h1>
+                    <a class="lyfestyle" href="#">Lifestyle</a>
+                    <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci.</p>
+                    <a class="read-more" href="#">Read more</a>
+                </div>
             </div>
-        </div>
-        <div class="images-secundary">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <div class="images-secundary">
+                <img src="./images/home-1.jpg" alt="flower">
+                <img src="./images/home-2.jpg" alt="food">
+                <img src="./images/home-3.jpg" alt="lifestyle">
+            </div>
         </div>
     </section>
 
     <section class="body-page">
         <article class="block-1">
             <div class="recent-posts">
-                <h2>Recents Posts</h2>
-                <div class="post-1">
-                    <img src="" alt="">
-                    <h3>How Important is Producto Photographt in eCommerce</h3>
-                    <label class="date-post">TG-Demo Team February 22, 2018 Lifestyle</label>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id veritatis, illum magni quae molestiae, voluptas porro fugit aliquam quaerat nam labore veniam nihil autem? Quas nihil quidem placeat, accusamus, asperiores earum assumenda animi deleniti ex non nesciunt sed! Voluptatibus corrupti doloremque veritatis voluptatem quam.</p>
-                    <a href="">Read more</a>
-                </div>
-                <div class="post-2">
-                    <img src="" alt="">
-                    <h3>How Important is Producto Photographt in eCommerce</h3>
-                    <label class="date-post">TG-Demo Team February 22, 2018 Lifestyle</label>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id veritatis, illum magni quae molestiae, voluptas porro fugit aliquam quaerat nam labore veniam nihil autem? Quas nihil quidem placeat, accusamus, asperiores earum assumenda animi deleniti ex non nesciunt sed! Voluptatibus corrupti doloremque veritatis voluptatem quam.</p>
-                    <a href="">Read more</a>
-                </div>
-                <div class="post-3">
-                    <img src="" alt="">
-                    <h3>How Important is Producto Photographt in eCommerce</h3>
-                    <label class="date-post">TG-Demo Team February 22, 2018 Lifestyle</label>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id veritatis, illum magni quae molestiae, voluptas porro fugit aliquam quaerat nam labore veniam nihil autem? Quas nihil quidem placeat, accusamus, asperiores earum assumenda animi deleniti ex non nesciunt sed! Voluptatibus corrupti doloremque veritatis voluptatem quam.</p>
-                    <a href="">Read more</a>
+                <h2 class="subtitle">Recents Posts</h2>
+                <div class="wrap">
+                    <div class="post">
+                        <img src="./images/post-1.jpg" alt="">
+                        <h3>How Important is Producto Photographt in eCommerce</h3>
+                        <label class="date-post">TG-Demo Team February 22, 2018 Lifestyle</label>
+                        <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
+                        <a class="read-more-2" href="">Read more</a>
+                    </div>
+                    <div class="post">
+                        <img src="./images/post-2.jpg" alt="">
+                        <h3>Architectural Trends That Will Define The Next Decade</h3>
+                        <label class="date-post">TG-Demo Team February 22, 2018 Nature</label>
+                        <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
+                        <a class="read-more-2" href="">Read more</a>
+                    </div>
+                    <div class="post">
+                        <img src="./images/post-3.jpg" alt="">
+                        <h3>Best Place to Visit This Spring</h3>
+                        <label class="date-post">TG-Demo Team February 22, 2018 Nature</label>
+                        <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
+                        <a class="read-more-2" href="">Read more</a>
+                    </div>
                 </div>
             </div>
         </article>
         <article class="block-2">
             <div class="about-me">
-                <img src="" alt="">
-                <label for="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, amet consequuntur! Maxime, eum.</label>
-                <div class="social-networks">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                <h2 class="subtitle">About Me</h2>
+                <div class="wrap">
+                    <img src="./images/about-me.jpg" alt="">
+                    <label>I am an author who loves the nature and travel, travel and food.</label>
+                    <div class="social-networks">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="gallery">
-                <h2>Gallery</h2>
-                <div class="images-gallery">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <h2 class="subtitle">Gallery</h2>
+                <div class="wrap">
+                    <div class="images-gallery">
+                        <img src="./images/gallery-1.jpg" alt="">
+                        <img src="./images/gallery-2.jpg" alt="">
+                        <img src="./images/gallery-3.jpg" alt="">
+                        <img src="./images/gallery-4.jpg" alt="">
+                        <img src="./images/gallery-5.jpg" alt="">
+                        <img src="./images/gallery-6.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="popular">
-                <h2>Popular</h2>
-                <div class="item-popular">
-                    <img src="" alt="">
-                    <div class="container-texto-popular">
-                        <h3>Architectural Trends That Will Define The Next Decade</h3>
-                        <label>TG: Demo Team February</label>
-                        <label>22, 2018 Nature</label>
+                <h2 class="subtitle">Popular</h2>
+                <div class="wrap">
+                    <div class="item-popular">
+                        <div class="container-img">
+                            <img src="./images/popular-1.jpg" alt="">
+                        </div>
+                        <div class="container-texto-popular">
+                            <h3>Architectural Trends That Will Define The Next Decade</h3>
+                            <label>TG-Demo Team February 22, 2018 Nature</label>
+                        </div>
                     </div>
-                </div>
-                <div class="item-popular">
-                    <img src="" alt="">
-                    <div class="container-texto-popular">
-                        <h3>Architectural Trends That Will Define The Next Decade</h3>
-                        <label>TG: Demo Team February</label>
-                        <label>22, 2018 Nature</label>
+                    <div class="item-popular">
+                        <div class="container-img">
+                            <img src="./images/popular-2.jpg" alt="">
+                        </div>
+                        <div class="container-texto-popular">
+                            <h3>Best Place to Visit This Spring</h3>
+                            <label>TG-Demo Team February 21, 2018 Nature</label>
+                        </div>
                     </div>
-                </div>
-                <div class="item-popular">
-                    <img src="" alt="">
-                    <div class="container-texto-popular">
-                        <h3>Architectural Trends That Will Define The Next Decade</h3>
-                        <label>TG: Demo Team February</label>
-                        <label>22, 2018 Nature</label>
+                    <div class="item-popular">
+                        <div class="container-img">
+                            <img src="./images/popular-3.jpg" alt="">
+                        </div>
+                        <div class="container-texto-popular">
+                            <h3>Trekking to the Himalayas</h3>
+                            <label>TG-Demo Team February 21, 2018 Nature</label>
+                        </div>
                     </div>
-                </div>
-                <div class="item-popular">
-                    <img src="" alt="">
-                    <div class="container-texto-popular">
-                        <h3>Architectural Trends That Will Define The Next Decade</h3>
-                        <label>TG: Demo Team February</label>
-                        <label>22, 2018 Nature</label>
+                    <div class="item-popular">
+                        <div class="container-img">
+                            <img src="./images/popular-4.jpg" alt="">
+                        </div>
+                        <div class="container-texto-popular">
+                            <h3>Life Under the Sea</h3>
+                            <label>TG-Demo Team February 21, 2018 Nature</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,41 +149,45 @@
 
     <footer class="footer">
         <section class="footer-1">
-            <article class="item_footer">
-                <label class="title-footer">Spacious</label>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus adipisci autem libero fuga voluptas asperiores explicabo amet!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repudiandae voluptatem quam, quos corrupti ipsam.</p>
-            </article>
-            <article class="item_footer">
-                <label class="subtitle-footer">Quick Links</label>
-                <label>Home</label>
-                <label>About me</label>
-                <label>Nature</label>
-                <label>Food & Health</label>
-                <label>Lifestyle</label>
-                <label>Contact</label>
-            </article>
-            <article class="item_footer">
-                <label class="subtitle-footer">Categories</label>
-                <label>Food & Health</label>
-                <label>Lifestyle</label>
-                <label>Nature</label>
-            </article>
-            <article class="item_footer">
-                <label class="subtitle-footer">Recent Posts</label>
-                <label>The Fashion Blogger Instagrams to Follow In 2018</label>
-                <label>How Important is Product Photography in eCommerce</label>
-                <label>Architectural Trends That Will Define The Next Decade</label>
-                <label>Best Place to Visit This Spring</label>
-            </article>
+            <div class="wrap">
+                <article class="item-footer-1">
+                    <label class="title-footer">Spacious</label>
+                    <p>Eum iriure dolor in hendrerit in esse molestie consemuat vel illum dolore eugt nulla facilisis at vero eros accum.</p>
+                    <p>Tllum dolore eugt nullamolestie consequat vel illum dolore eugt nulla facilisis at vero eros accum.</p>
+                </article>
+                <article class="item-footer-2">
+                    <label class="subtitle-footer">Quick Links</label>
+                    <a href=""><label>Home</label></a>
+                    <a href=""><label>About me</label></a>
+                    <a href=""><label>Nature</label></a>
+                    <a href=""><label>Food & Health</label></a>
+                    <a href=""><label>Lifestyle</label></a>
+                    <a href=""><label>Contact</label></a>
+                </article>
+                <article class="item-footer-2">
+                    <label class="subtitle-footer">Categories</label>
+                    <a href="#">Food & Health</a>
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Nature</a>
+                </article>
+                <article class="item-footer-2">
+                    <label class="subtitle-footer">Recent Posts</label>
+                    <a href="#">The Fashion Blogger Instagrams to Follow In 2018</a>
+                    <a href="#">How Important is Product Photography in eCommerce</a>
+                    <a href="#">Architectural Trends That Will Define The Next Decade</a>
+                    <a href="#">Best Place to Visit This Spring</a>
+                </article>
+            </div>
         </section>
         <section class="footer-2">
-            <label>Copyright © 2020</label>
-            <label>Desarrollado por Giovanni Cancho</label>
+            <div class="wrap">
+                <label>Copyright © 2020</label>
+                <label>Desarrollado por<a class="creator-page" href="https://giovannicancho.com/" target="_blank">&nbsp;Giovanni Cancho</a></label>
+            </div>
         </section>
-
     </footer>
 
-
+    <script src="https://kit.fontawesome.com/abb362e998.js" crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

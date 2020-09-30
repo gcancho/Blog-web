@@ -1,0 +1,72 @@
+.item-footer-2{
+    color: $color12;
+}
+/*Estilos de subtitulos de footer*/
+.subtitle-footer{
+    position: relative;
+    display: block;
+    font-size: 1.2em;
+    &::after{
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: $color2;
+        width: 130px;
+    }
+}
+
+.footer{
+    background: $color3;
+    .footer-1{
+        padding: 15px 0;
+        .title-footer{
+            display: block;
+            color: $color10;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+        p{
+            color: $color11;
+            font-size: 0.85em;
+            margin-bottom: 8px;
+        }
+        .item-footer-2{
+            margin-top: 40px;
+            .subtitle-footer{
+                margin-bottom: 20px;
+            }
+            a{  
+                display: block;
+                color: $color12;
+                border-bottom: 1px solid $color7;
+                padding-top: 4px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .footer-2{
+        padding: 10px 0;
+        background-color: $color4;
+        color: $color13;
+        label{
+            display: block;
+            text-align: center;
+        }
+        .creator-page{
+            transition: all 2s;
+            color: $color3;
+            font-weight: bold;
+            &:hover{
+                color: $color14;
+                font-weight: bold;
+                transition: all 2s;
+            }
+            
+        }
+    }
+}
