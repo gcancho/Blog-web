@@ -55,7 +55,7 @@ p {
   justify-content: left;
   align-items: center;
   width: 100%;
-  height: 60px;
+  height: 45px;
   padding: 0 20px;
   background-color: #3a3a3a;
   cursor: pointer;
@@ -100,6 +100,7 @@ p {
 }
 
 section.home {
+  margin-top: 15px;
   border-top: 1px solid #eaeaea;
   padding: 10px 0;
 }
@@ -314,6 +315,116 @@ section.body-page .block-2 .popular .item-popular .container-texto-popular label
   color: #088555;
   font-weight: bold;
   transition: all 2s;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrap-header {
+    width: 90%;
+    padding: 15px 0;
+  }
+
+  .wrap {
+    width: 90%;
+  }
+
+  .header .wrap-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .wrap-header .title {
+    display: inline-block;
+    margin: initial;
+  }
+  .header .wrap-header .menu-toggle {
+    display: none;
+  }
+  .header .wrap-header .list-menu {
+    display: inline-block;
+  }
+  .header .wrap-header .list-menu ul {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+  }
+  .header .wrap-header .list-menu ul li {
+    margin-left: 1.5em;
+  }
+  .header .wrap-header .list-menu ul li a {
+    background: #fff;
+    color: #444444;
+    padding: initial;
+  }
+  .header .wrap-header .list-menu ul li a:hover {
+    background-color: initial;
+    color: #0FBE7C;
+  }
+
+  section.home .hero {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.home .hero img {
+    width: 48%;
+  }
+  section.home .hero .text-hero {
+    width: 48%;
+    padding-top: 100px;
+  }
+  section.home .images-secundary {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.home .images-secundary img {
+    width: 31%;
+  }
+
+  section.body-page {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.body-page .subtitle {
+    width: initial;
+  }
+  section.body-page .block-1 {
+    width: 65%;
+  }
+  section.body-page .block-1 .recent-posts .wrap {
+    width: 95%;
+  }
+  section.body-page .block-1 .recent-posts h2 {
+    margin-bottom: 40px;
+  }
+  section.body-page .block-1 .recent-posts .post {
+    padding-top: initial;
+  }
+  section.body-page .block-2 {
+    width: 31%;
+  }
+  section.body-page .block-2 .wrap {
+    width: 95%;
+  }
+  section.body-page .block-2 .gallery .images-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section.body-page .block-2 .gallery .images-gallery img {
+    width: 70px;
+    height: 70px;
+  }
+  section.body-page .block-2 .popular .item-popular .container-img {
+    width: auto;
+  }
+  section.body-page .block-2 .popular .item-popular .container-texto-popular h3 {
+    line-height: initial;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  p {
+    color: green;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

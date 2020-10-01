@@ -38,6 +38,7 @@ p{
 @import "header";
 
 section.home{
+    margin-top: 15px;
     border-top: 1px solid $color4;
     padding: 10px 0;
     .hero{
@@ -202,4 +203,4 @@ section.body-page{
 }
 
 @import "footer";
-
+@import "mediaQuerys";
