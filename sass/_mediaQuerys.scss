@@ -1,4 +1,9 @@
 @media only screen and(min-width: 768px){
+    .wrap-body{
+        max-width: 2000px;
+        margin: 0 auto;
+        width: 90%;
+    }
     .wrap-header{
         width: 90%;
         padding: 15px 0;
@@ -86,20 +91,24 @@
             }
         }
         .block-2{
-            width: 31%
+            width: 34%
         }
         .block-2{
             .wrap{
                 width: 95%;
             }
             .gallery{
-                .images-gallery{
-                    display: flex;
-                    flex-wrap: wrap;
-                    img{
-                        width: 70px;
-                        height: 70px;
+                .images-gallery{             
+                    .columns-3{
+                        display: flex;
                     }
+                        img{
+                            flex-grow: 1;
+                            margin-left: 0.2em;
+                            margin-bottom: 0.5em;
+                            max-width: 140px;
+                            max-height: 140px;
+                        }
                 }
             }
             .popular{
@@ -148,7 +157,7 @@
         width: 80%;
     }
     section.body-page .block-1 .recent-posts h2{
-        width: 90%;
+        width: 84%;
     }
     section.body-page .block-2 .gallery .images-gallery img{
         width: 90px;
