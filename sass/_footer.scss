@@ -46,6 +46,12 @@
                 border-bottom: 1px solid $color7;
                 padding-top: 4px;
                 margin-bottom: 8px;
+                &:hover{
+                    color: $color2;
+                }
+                label{
+                    cursor: pointer;
+                }
             }
         }
     }

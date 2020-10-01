@@ -116,12 +116,42 @@
             }
         }
     }
+    footer{
+        .footer-1{
+            .wrap{
+                display: flex;
+                justify-content: space-between;
+                .item-footer-2{
+                    margin-top: initial;
+                }
+                article{
+                    width: 20%;
+                }
+            }
+        }
+        .footer-2{
+            .wrap{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+  
+    }
 }
 
 
 @media only screen and(min-width: 1000px){
-    p{
-        color: green;
-    
+    .wrap-header, .wrap{
+        width: 80%;
+    }
+    section.body-page .block-1 .recent-posts .wrap{
+        width: 80%;
+    }
+    section.body-page .block-1 .recent-posts h2{
+        width: 90%;
+    }
+    section.body-page .block-2 .gallery .images-gallery img{
+        width: 90px;
+        height: 90px;
     }
 }

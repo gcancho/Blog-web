@@ -297,6 +297,12 @@ section.body-page .block-2 .popular .item-popular .container-texto-popular label
   padding-top: 4px;
   margin-bottom: 8px;
 }
+.footer .footer-1 .item-footer-2 a:hover {
+  color: #0FBE7C;
+}
+.footer .footer-1 .item-footer-2 a label {
+  cursor: pointer;
+}
 .footer .footer-2 {
   padding: 10px 0;
   background-color: #eaeaea;
@@ -420,10 +426,38 @@ section.body-page .block-2 .popular .item-popular .container-texto-popular label
   section.body-page .block-2 .popular .item-popular .container-texto-popular h3 {
     line-height: initial;
   }
+
+  footer .footer-1 .wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .footer-1 .wrap .item-footer-2 {
+    margin-top: initial;
+  }
+  footer .footer-1 .wrap article {
+    width: 20%;
+  }
+  footer .footer-2 .wrap {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 @media only screen and (min-width: 1000px) {
-  p {
-    color: green;
+  .wrap-header, .wrap {
+    width: 80%;
+  }
+
+  section.body-page .block-1 .recent-posts .wrap {
+    width: 80%;
+  }
+
+  section.body-page .block-1 .recent-posts h2 {
+    width: 90%;
+  }
+
+  section.body-page .block-2 .gallery .images-gallery img {
+    width: 90px;
+    height: 90px;
   }
 }
 
