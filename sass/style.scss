@@ -35,6 +35,20 @@ p{
     color: $color6;
 }
 
+.box-gray{
+    margin-top: 10px;
+    border-top: 1px solid $color4;
+    border-bottom: 1px solid $color4;
+    padding: 20px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+    h1{
+        font-size: 1.3em;
+        font-weight: 500;
+        color: $color15;
+    }
+}
+
+
 @import "header";
 
 section.home{
@@ -202,5 +216,63 @@ section.body-page{
     }
 }
 
+section.about-me{
+    margin-top: 15px;
+    p{
+        color: $color1;
+        &:last-child{
+            margin: 10px 0 40px;
+        }
+    }    
+    h2{
+        font-size: 1.2em;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    img{
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+.social-networks{
+    margin: 20px 0;
+    margin-bottom: 40px;
+    padding: 15px 0;
+    border-top: 1px solid $color16;
+    label{
+        display: block;
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    i{
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        padding: 5px;
+        font-size: 0.9em;
+        background-color: #818181;
+        color: #fff;
+        margin-left: 0.5em;
+        border-radius: 2px;
+    }
+    .fa-facebook{
+        background: #3b5998;
+    }
+    .fa-twitter{
+        background: #1da1f2;
+    }
+    .fa-google-plus{
+        background: #dd4b39;
+    }
+    .fa-instagram{
+        background: #262626;
+    }
+    .fa-youtube{
+        background: #cd201f;
+    }   
+    
+    
+}
 @import "footer";
 @import "mediaQuerys";

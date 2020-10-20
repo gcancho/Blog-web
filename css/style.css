@@ -33,6 +33,19 @@ p {
   color: #9b9b9b;
 }
 
+.box-gray {
+  margin-top: 10px;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+}
+.box-gray h1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #222222;
+}
+
 .wrap-header {
   width: 95%;
   margin: 0 auto;
@@ -244,6 +257,64 @@ section.body-page .block-2 .popular .item-popular .container-texto-popular label
   line-height: 1.4em;
 }
 
+section.about-me {
+  margin-top: 15px;
+}
+section.about-me p {
+  color: #666666;
+}
+section.about-me p:last-child {
+  margin: 10px 0 40px;
+}
+section.about-me h2 {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+section.about-me img {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.social-networks {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  padding: 15px 0;
+  border-top: 1px solid #e5e5e5;
+}
+.social-networks label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.social-networks i {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.9em;
+  background-color: #818181;
+  color: #fff;
+  margin-left: 0.5em;
+  border-radius: 2px;
+}
+.social-networks .fa-facebook {
+  background: #3b5998;
+}
+.social-networks .fa-twitter {
+  background: #1da1f2;
+}
+.social-networks .fa-google-plus {
+  background: #dd4b39;
+}
+.social-networks .fa-instagram {
+  background: #262626;
+}
+.social-networks .fa-youtube {
+  background: #cd201f;
+}
+
 .item-footer-2 {
   color: #D5D5D5;
 }
@@ -450,6 +521,23 @@ section.body-page .block-2 .popular .item-popular .container-texto-popular label
     display: flex;
     justify-content: space-between;
   }
+
+  .about-me .wrap {
+    width: 90%;
+  }
+  .about-me h2 {
+    margin-top: 25px;
+  }
+  .about-me p {
+    margin-top: 25px;
+  }
+
+  .social-networks {
+    padding: 30px 0;
+  }
+  .social-networks label {
+    display: initial;
+  }
 }
 @media only screen and (min-width: 1000px) {
   .wrap-header, .wrap {
@@ -483,6 +571,14 @@ section.body-page .block-2 .popular .item-popular .container-texto-popular label
     margin-bottom: 0.5em;
     max-width: 140px;
     max-height: 140px;
+  }
+
+  .about-me .wrap {
+    width: 90%;
+  }
+
+  .wrap-body .wrap {
+    width: 90%;
   }
 }
 
