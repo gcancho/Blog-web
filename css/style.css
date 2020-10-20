@@ -538,6 +538,10 @@ section.about-me img {
   .social-networks label {
     display: initial;
   }
+
+  .nature .block-1, .nature .block-2 {
+    margin-top: 50px;
+  }
 }
 @media only screen and (min-width: 1000px) {
   .wrap-header, .wrap {

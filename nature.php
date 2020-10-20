@@ -4,62 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Blog</title>
+    <title>Nature</title>
 </head>
 <body>
-    <header class="header">
-        <div class="wrap-header">
-            <label class="title">Spacious</label>
-            <div class="menu-toggle" id="menu-toggle">
-                <i class="fa fa-bars"></i>
-                <label>Menu</label>
-            </div>
-            <nav class="list-menu" id="list-menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-me.html">About me</a></li>
-                    <li><a href="nature.html">Nature</a></li>
-                    <li><a href="food.html">Food & Health</a></li>
-                    <li><a href="lifestyle.html">Lifestyle</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <div class="wrap-body">
-
-    <section class="home">
+    <?php include "header.php" ?>
+    <div class="box-gray">
         <div class="wrap">
-            <div class="hero">
-                <img src="./images/hero.jpg" alt="hero">
-                <div class="text-hero">
-                    <h1>The Fashion Blogger Instagrams to Follow in 2018</h1>
-                    <a class="lyfestyle" href="#">Lifestyle</a>
-                    <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci.</p>
-                    <a class="read-more" href="#">Read more</a>
-                </div>
-            </div>
-            <div class="images-secundary">
-                <img src="./images/home-1.jpg" alt="flower">
-                <img src="./images/home-2.jpg" alt="food">
-                <img src="./images/home-3.jpg" alt="lifestyle">
-            </div>
+            <h1>Nature</h1>
         </div>
-    </section>
-
-    <section class="body-page">
+    </div>
+    <section class="body-page nature">
         <article class="block-1">
             <div class="recent-posts">
-                <h2 class="subtitle">Recents Posts</h2>
                 <div class="wrap">
-                    <div class="post">
-                        <img src="./images/post-1.jpg" alt="">
-                        <h3>How Important is Producto Photographt in eCommerce</h3>
-                        <label class="date-post">TG-Demo Team February 22, 2018 Lifestyle</label>
-                        <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
-                        <a class="read-more-2" href="">Read more</a>
-                    </div>
                     <div class="post">
                         <img src="./images/post-2.jpg" alt="">
                         <h3>Architectural Trends That Will Define The Next Decade</h3>
@@ -153,49 +110,7 @@
         </article>
     </section>
 
-    </div>
-    
-    <footer class="footer">
-        <section class="footer-1">
-            <div class="wrap">
-                <article class="item-footer-1">
-                    <label class="title-footer">Spacious</label>
-                    <p>Eum iriure dolor in hendrerit in esse molestie consemuat vel illum dolore eugt nulla facilisis at vero eros accum.</p>
-                    <p>Tllum dolore eugt nullamolestie consequat vel illum dolore eugt nulla facilisis at vero eros accum.</p>
-                </article>
-                <article class="item-footer-2">
-                    <label class="subtitle-footer">Quick Links</label>
-                    <a href=""><label>Home</label></a>
-                    <a href=""><label>About me</label></a>
-                    <a href=""><label>Nature</label></a>
-                    <a href=""><label>Food & Health</label></a>
-                    <a href=""><label>Lifestyle</label></a>
-                    <a href=""><label>Contact</label></a>
-                </article>
-                <article class="item-footer-2">
-                    <label class="subtitle-footer">Categories</label>
-                    <a href="#">Food & Health</a>
-                    <a href="#">Lifestyle</a>
-                    <a href="#">Nature</a>
-                </article>
-                <article class="item-footer-2">
-                    <label class="subtitle-footer">Recent Posts</label>
-                    <a href="#">The Fashion Blogger Instagrams to Follow In 2018</a>
-                    <a href="#">How Important is Product Photography in eCommerce</a>
-                    <a href="#">Architectural Trends That Will Define The Next Decade</a>
-                    <a href="#">Best Place to Visit This Spring</a>
-                </article>
-            </div>
-        </section>
-        <section class="footer-2">
-            <div class="wrap">
-                <label>Spacius © Copyright 2020</label>
-                <label>Desarrollado por<a class="creator-page" href="https://giovannicancho.com/" target="_blank">&nbsp;Giovanni Cancho</a></label>
-            </div>
-        </section>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/abb362e998.js" crossorigin="anonymous"></script>
-    <script src="js/menu.js"></script>
+    <?php include "footer.php" ?>
+    <?php include "scripts.php" ?>  
 </body>
 </html>
