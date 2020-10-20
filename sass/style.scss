@@ -274,5 +274,41 @@ section.about-me{
     
     
 }
+
+.contact{
+    .form-contact{
+        margin-bottom: 30px;
+        .container-input{
+            margin: 15px 0;
+            label, input, textarea{
+                display: block;
+                width: 100%;
+            }
+            input{
+                height: 30px;
+                background-color: #F8F8F8;
+                font-size: 14px;
+                outline: 0;
+                box-shadow: none;
+                margin-bottom: 10px;
+                padding: 6px 12px;
+                color: #494d50;
+                border: 1px solid #8e98a2;
+            }
+            textarea{
+                border: 1px solid #8e98a2;
+                box-shadow: none;
+                outline: 0;
+                padding: 6px 12px;
+            }
+        }
+        input[type=submit]{
+            display: block;
+            margin: 0 auto;
+            height: 40px;
+            width: 100px;
+        }
+    }
+}
 @import "footer";
 @import "mediaQuerys";

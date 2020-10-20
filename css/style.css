@@ -315,6 +315,40 @@ section.about-me img {
   background: #cd201f;
 }
 
+.contact .form-contact {
+  margin-bottom: 30px;
+}
+.contact .form-contact .container-input {
+  margin: 15px 0;
+}
+.contact .form-contact .container-input label, .contact .form-contact .container-input input, .contact .form-contact .container-input textarea {
+  display: block;
+  width: 100%;
+}
+.contact .form-contact .container-input input {
+  height: 30px;
+  background-color: #F8F8F8;
+  font-size: 14px;
+  outline: 0;
+  box-shadow: none;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  color: #494d50;
+  border: 1px solid #8e98a2;
+}
+.contact .form-contact .container-input textarea {
+  border: 1px solid #8e98a2;
+  box-shadow: none;
+  outline: 0;
+  padding: 6px 12px;
+}
+.contact .form-contact input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  width: 100px;
+}
+
 .item-footer-2 {
   color: #D5D5D5;
 }
