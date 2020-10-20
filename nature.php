@@ -31,6 +31,20 @@
                         <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
                         <a class="read-more-2" href="">Read more</a>
                     </div>
+                    <div class="post">
+                        <img src="./images/post-4.jpg" alt="">
+                        <h3>Trekking to the Himalayas</h3>
+                        <label class="date-post">TG-Demo Team February 22, 2018 Nature</label>
+                        <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
+                        <a class="read-more-2" href="">Read more</a>
+                    </div>
+                    <div class="post">
+                        <img src="./images/post-5.jpg" alt="">
+                        <h3>Life Under the Sea</h3>
+                        <label class="date-post">TG-Demo Team February 22, 2018 Nature</label>
+                        <p>Duis vitae massa blandit, volutpat enim ac, feugiat lorem. Aenean eget eros a nulla feugiat venenatis. Morbi scelerisque, enim id dapibus mattis, lectus arcu luctus orci, sit amet imperdiet mi arcu et dui. Pellentesque ultrices elementum nunc nec efficitur. Suspendisse</p>
+                        <a class="read-more-2" href="">Read more</a>
+                    </div>
                 </div>
             </div>
         </article>
@@ -67,7 +81,7 @@
                 </div>
             </div>
             <div class="popular">
-                <h2 class="subtitle">Popular</h2>
+                <h2 class="subtitle">Recent Posts</h2>
                 <div class="wrap">
                     <div class="item-popular">
                         <div class="container-img">

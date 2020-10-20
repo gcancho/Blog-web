@@ -17,9 +17,9 @@
             </article>
             <article class="item-footer-2">
                 <label class="subtitle-footer">Categories</label>
-                <a href="#">Food & Health</a>
-                <a href="#">Lifestyle</a>
-                <a href="#">Nature</a>
+                <a href="food.php">Food & Health</a>
+                <a href="lifestyle.php">Lifestyle</a>
+                <a href="nature.php">Nature</a>
             </article>
             <article class="item-footer-2">
                 <label class="subtitle-footer">Recent Posts</label>
@@ -32,7 +32,7 @@
     </section>
     <section class="footer-2">
         <div class="wrap">
-            <label>Spacius © Copyright 2020</label>
+            <label>Spacious © Copyright 2020</label>
             <label>Desarrollado por<a class="creator-page" href="https://giovannicancho.com/" target="_blank">&nbsp;Giovanni Cancho</a></label>
         </div>
     </section>
